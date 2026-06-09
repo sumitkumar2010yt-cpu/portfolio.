@@ -1,0 +1,370 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+span{
+    color:#63B72E;
+    text-shadow:0px 0px 25px #63B72E;
+}
+
+.logo{
+    position: absolute;
+    color:#63B72E;
+    padding:20px;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display:flex;
+    gap:100px;
+    justify-content:right;
+    background-color: black;
+    height:28px;
+    padding:8px;
+}
+
+nav a{
+    margin-right:100px;
+    margin-top:8px;
+    text-decoration:none;
+    color:white;
+    cursor: pointer;
+    padding:0px;
+    font-size:20px;
+}
+
+#home {
+    
+    color: #63B72E;
+    border-bottom:2px solid #63B72E;
+    border-radius:4px 4px 4px 4px;
+    text-shadow:0px 0px 10px #63B72E;
+}
+
+nav a:hover{
+    border-bottom:2px solid #63B72E;
+    border-radius:4px 4px 4px 4px;
+    color:#63B72E;
+    text-shadow:0 0 10px #63B72E;
+    transition:0.3s;
+}
+
+/*.home img{
+    width:100%;
+    height:596px;
+}*/
+
+.homepage{
+    width:100%;
+    height:596px;
+    background-image: linear-gradient(to bottom,black,black, #63B72E);
+}
+ .pic{
+    position:absolute;
+    /*border:2px solid #63B72E;
+    border:none;
+    box-shadow:0px 0px 25px #63B72E;
+    border-radius:50%;
+    background-image:url("my\ picture.jpg.jpeg");*/
+    height:350px;
+    width:350px;
+    margin-left:150px;
+    margin-top: 100px;
+}
+
+.pic img{
+    width:350px;
+    height: 350px;
+    border:2px solid #63B72E;
+    box-shadow:0px 0px 25px #63B72E;
+    border-radius:50%;
+}
+
+#intro{
+    position: absolute;
+    border:2px solid #63B72E;
+    border:none;
+    border-radius:10px;
+    height:350px;
+    width:600px;
+    margin-left:550px;
+    margin-top: 100px;
+    color:white;
+}
+
+#intro h2{
+    
+    margin-top:40px;
+    margin-left:20px;
+    font-size:37px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+#intro p{
+    padding-left:20px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+#intro h3{
+    padding-left:20px;
+    font-size: 24px;
+    font-weight: 600;
+    color:white;
+    font-family: sans-serif;
+    
+    
+}
+
+#intro h4{
+    padding-left:20px;
+    font-size: 24px;
+    font-weight:550;
+    color:#63B72E;
+    text-shadow:0px 0px 25px #63B72E;
+    font-family: sans-serif;
+    
+}
+
+
+.intro-box{
+position: absolute;
+border:2px solid  #63B72E;
+border:none;
+background-image: url("porfolio2.jpg.jpeg");
+border-radius:20px;
+box-shadow:0 -5px 20px  #63B72E,
+           0px 5px 40px black;
+/*box-shadow:0px 0px 25px  #63B72E;*/
+width:1228px;
+height:530px;
+margin-left:50px;
+margin-top:17px;
+}
+
+#about{
+    width: 100%;
+    margin:0px;
+    height:700px;
+    width: 1335;
+    border:2px solid #63B72E;
+    border:none;
+    text-align: center;
+    font-size:40px;
+    padding-top:10px;
+    color:white;
+    background-image:url("https://img.magnific.com/free-vector/abstract-black-lines-geometric-background_677411-2748.jpg?semt=ais_hybrid&w=740&q=80");
+    /*background-color: #122904;*/
+}
+
+#about h1{
+    font-size:40px;
+    font-weight:700;
+}
+
+#about h3{
+    font-size:25px;
+    line-height: 10px;
+}
+
+#about p{
+    font-size:20px;
+}
+
+#about p1{
+    font-size:17px;
+}
+
+#Skills{
+    margin-top:0px;
+    padding-top:30px;
+    text-align:center;
+    border:1px solid blue;
+    border:none;
+    background-color:black;
+    width:1335px;
+    height:950px;
+    color:white;
+    text-transform: capitalize;
+    transition:3s;
+}
+
+#Skills h2{
+    font-size:35px;
+}
+
+.div1{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.box1{
+    border:2px solid red;
+    border:none;
+    background-color:#161b22;
+    border-radius:10px 30px 10px 30px;
+    width:230px;
+    height:160px;
+    padding-top:20px;
+}
+
+.box1:hover{
+    transform:translateY(-7px);
+    text-shadow:0 0 10px ;
+    transition:0.3s;
+    box-shadow:0 0 25px aqua;
+}
+
+.box1 h3{
+    color:aqua;
+}
+
+.box1 p{
+      color:white;
+}
+
+.div2{
+    border:2px soild red;
+    width:1335px;;
+    display: flex;
+    gap:300px;
+}
+
+.div3{
+    display: flex;
+    
+    justify-content:space-evenly;
+    border:2px solid red;
+    margin-left:0px;
+    margin-top:10px;
+    width:1340px;
+    height:612px;
+    border:2px solid blue;
+    border:none;
+}
+
+.box2{
+    color:aqua;
+    border:2px solid aqua;
+    border:none;
+    border-radius:10px 30px 10px 30px;
+    background-color:#161b22;
+    width:230px;
+    height:545px;
+    margin-top:50px;
+    padding:20px;
+}
+
+.box2 h3{
+    color:aqua;
+}
+
+.box2 p{
+    color:white;
+    text-align:center;
+}
+
+.box2:hover{
+    transform:translateY(-7px);
+    transition:0.3s;
+    box-shadow:0 0 25px aqua;
+}
+
+.div4{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    margin-top:50px;
+}
+
+.div5{
+    border:2px solid red;
+    border-radius:10px 30px 10px 30px;
+    border:none;
+    width:233px;
+    height:163px;
+    background-color: #161b22;
+}
+
+.div5 h3{
+    color:aqua;
+}
+
+.div5 p{
+    color:white;
+}
+
+.div5:hover{
+    transform:translateY(-7px);
+    text-shadow:0 0 10px aqua;
+    transition:0.3s;
+    border:aqua;
+    box-shadow:0 0 25px aqua;
+}
+
+#Contect{
+    width: 100%;
+    height:450px;
+    background-color:black;
+    color:white;
+    text-align: center;
+    padding-top:1px;
+}
+
+.div6{
+    padding:10px;
+    border:2px solid #63B72E;
+    border-radius:25px;
+    width:60%;
+    height:300px;
+    margin-left:20%;
+    background-color:black;
+    box-shadow:0px 0px 20px#63B72E;
+    justify-content: center;
+}
+
+.div6 a{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+    
+    gap:100px;
+}
+
+#link{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+#link a:hover{
+    text-shadow:0px 0px 15px aqua;
+    color:aqua;
+    border-bottom:2px solid aqua;
+    transition:0.3s;
+
+}
+
+.div6 h3{
+    text-decoration: none;
+    padding:10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.footer{
+    width: 100%;
+    background-color:black;
+    border:2px solid black;
+    color:white;
+    height:30px;
+    text-align:center;
+    margin-top:1px;
+}
+.footer p{
+    margin-top:6px;
+}
