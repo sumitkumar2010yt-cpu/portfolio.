@@ -1,3 +1,10 @@
+@media (min-width:100px){
+    body{
+        width: 1336px;
+        padding:20px;
+        box-sizing: border-box;
+        color:red;
+    }
 body{
     margin:0px;
     padding:0px;
